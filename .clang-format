@@ -1,0 +1,35 @@
+
+BasedOnStyle: Chromium
+
+Standard:	Cpp11
+
+ColumnLimit:	120
+
+IndentWidth:	4
+
+TabWidth:	4
+
+AccessModifierOffset:	-4
+
+AlignConsecutiveAssignments:	true
+
+MaxEmptyLinesToKeep:	2
+
+PointerAlignment:	Left
+
+AllowShortFunctionsOnASingleLine:	Empty
+
+BreakBeforeBraces:	Custom
+BraceWrapping:   
+  AfterClass:      true
+  AfterControlStatement: false
+  AfterEnum:       true
+  AfterFunction:   true
+  AfterNamespace:  true
+  AfterStruct:     true
+  AfterUnion:      true
+  AfterExternBlock: false
+  BeforeCatch:     false
+  BeforeElse:      false
+  IndentBraces:    false
+
