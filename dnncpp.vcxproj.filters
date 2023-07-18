@@ -18,11 +18,25 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="module\layer.ixx">
+    <ClCompile Include="include\dnncpp\layer\layer.hpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\dnncpp\activation\sigmoid.hpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="include\dnncpp\activation\core.hpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include=".clang-format" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\dnncpp\nn\network.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dnncpp\activation\activation.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
