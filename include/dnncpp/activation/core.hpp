@@ -21,4 +21,4 @@ public:
     virtual Eigen::ArrayXd derivative(const Eigen::ArrayXd& x) = 0;
 };
 
-}
+}  // namespace dnncpp

@@ -1,13 +1,15 @@
-#include <iostream>
 #include <format>
+#include <iostream>
 
 #include "dnncpp/nn/network.hpp"
 
-auto himmelblau(const Eigen::ArrayX2d& x) {
+auto himmelblau(const Eigen::ArrayX2d& x)
+{
     return (x.col(0).pow(2) + x.col(1) - 11).pow(2) + (x.col(0) + x.col(1).pow(2) - 7).pow(2);
 }
 
-Eigen::ArrayXd func(const Eigen::ArrayXd& x) {
+Eigen::ArrayXd func(const Eigen::ArrayXd& x)
+{
     return 2.3 * x + 5.6;
 }
 
