@@ -169,6 +169,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\dnncpp\activation\activation.hpp" />
+    <ClInclude Include="include\dnncpp\activation\linear.hpp" />
     <ClInclude Include="include\dnncpp\nn\network.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

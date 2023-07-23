@@ -13,7 +13,6 @@ class Layer
 public:
     Layer(int n_input, int n_output, Activation activation)
     {
-        std::cout << "create layer" << std::endl;
         this->weights.setRandom(n_input, n_output);
         this->bias.setRandom(n_output);
         this->activation = get_activation(activation);

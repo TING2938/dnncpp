@@ -38,5 +38,8 @@
     <ClInclude Include="include\dnncpp\activation\activation.hpp">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="include\dnncpp\activation\linear.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -10,6 +10,7 @@ enum class Activation
     Relu,
     Tanh,
     Softmax,
+    Linear,
 };
 
 class ActivationBase
