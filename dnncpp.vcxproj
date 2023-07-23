@@ -172,6 +172,9 @@
     <ClInclude Include="include\dnncpp\activation\linear.hpp" />
     <ClInclude Include="include\dnncpp\nn\network.hpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
